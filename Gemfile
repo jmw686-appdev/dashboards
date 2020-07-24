@@ -44,7 +44,7 @@ gem 'therubyracer', platforms: :ruby
 group :development, :test do
   gem 'amazing_print'
   gem 'dotenv-rails'
-  gem 'grade_runner', github: 'firstdraft/grade_runner'
+  gem 'grade_runner', github: 'firstdraft/grade_runner', branch: "jw-use-environment-variable-for-token"
   gem 'pry-rails'
   gem 'sqlite3', '~> 1.4.1'
   gem 'table_print'
